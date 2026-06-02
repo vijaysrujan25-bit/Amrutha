@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Amrutha</title>
+  <meta name="description" content="About Amrutha - Skills and Resume">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="logo text-gradient">Amrutha.</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger">☰</button>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="container animate-on-scroll">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <h3 class="text-gradient" style="font-size: 1.8rem; margin-bottom: 1rem;">Passionate Developer & Designer</h3>
+          <p>Hello! I'm Amrutha, a dedicated professional with a keen eye for design and a strong foundation in modern development. I thrive on creating intuitive, dynamic, and beautiful digital solutions.</p>
+          <p>My journey in tech is driven by continuous learning and a passion for turning complex problems into simple, elegant interfaces.</p>
+          
+          <h4 style="margin-top: 2rem; font-size: 1.2rem;">My Skills</h4>
+          <div class="skills">
+            <span class="skill-tag">HTML5 & CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">UI/UX Design</span>
+            <span class="skill-tag">Responsive Web Design</span>
+            <span class="skill-tag">Creative Problem Solving</span>
+          </div>
+          
+          <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+            <a href="#" id="view-resume-btn" class="btn btn-primary">Preview Resume</a>
+            <a href="resume.jpeg" download="Amrutha_Resume" class="btn btn-outline">Download Resume</a>
+          </div>
+        </div>
+        
+        <div class="resume-preview">
+          <img src="resume.jpeg" alt="Resume Preview">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Resume Modal -->
+  <div id="resume-modal" class="modal">
+    <span class="close-modal">&times;</span>
+    <img src="resume.jpeg" class="modal-content" alt="Resume Full View">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
